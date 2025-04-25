@@ -1,0 +1,26 @@
+.stew-content{
+    background-color:beige;
+    width: 700px;
+    padding:10px;
+    margin:auto;
+
+}
+
+body{
+    font-family: "Tuffy", sans-serif;
+    background-color:honeydew;
+}
+
+h1,h2,h3{
+    color: #805e28;
+}
+
+footer{
+    background-color: #805e28;
+    color:white;
+    padding-top:7px;
+    padding-bottom:7px;
+    clear:both;
+    padding-left:5px ;
+}
+
