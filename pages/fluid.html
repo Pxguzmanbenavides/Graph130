@@ -7,6 +7,30 @@
         <link href="../styles/fluid.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+        <div id="navplaceholder">
+        <script>
+            fetch('nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navplaceholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching nav:', error));
+        </script>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="fluid.html">Fluid</a></li>
+                    <li><a href="historyofinternet.html">History of internet</a></li>
+                    <li><a href="historyupgrade.html">History upgrade</a></li>
+                    <li><a href="Quality.html">Quality</a></li>
+                    <li><a href="stewrecipe.html">Stew recipe</a></li>
+                    <li><a href="Cascademountains.html">Cascades</a></li>
+                    <li><a href="starting.html">Starting</a></li>
+                    <li><a href="theatre.html">Theatre</a></li>
+                </ul>
+            </nav>
+
+        </div>
         <article class="pure-g hero">
             <section class="pure-u-1-3">
                 <h1>Fluid Project</h1>

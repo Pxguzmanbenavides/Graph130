@@ -6,6 +6,32 @@
 	<title>History of the internet - briefly</title>
 </head>
 <body>
+
+    <div id="navplaceholder">
+        <script>
+            fetch('nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navplaceholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching nav:', error));
+        </script>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="fluid.html">Fluid</a></li>
+                    <li><a href="historyofinternet.html">History of internet</a></li>
+                    <li><a href="historyupgrade.html">History upgrade</a></li>
+                    <li><a href="Quality.html">Quality</a></li>
+                    <li><a href="stewrecipe.html">Stew recipe</a></li>
+                    <li><a href="Cascademountains.html">Cascades</a></li>
+                    <li><a href="starting.html">Starting</a></li>
+                    <li><a href="theatre.html">Theatre</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        
 <p><b>Dwight Eisenhower</b> - American politician and Army general who served as the 34th President of the United States from 1953 until 1961. </p>
     <img src="../images/1-ike.jpg" alt="President Eisenhower" width="500px">
 <p><b>Sputnik</b> the first artificial satellite launched into space.</p>
