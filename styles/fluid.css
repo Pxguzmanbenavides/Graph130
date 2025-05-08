@@ -1,0 +1,46 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    color:antiquewhite;
+}
+
+.hero{
+    padding:20px;
+    background-color: #d44646b0;
+}
+
+.hero section img{
+    max-width:100%;
+    height:auto;
+}
+
+.blitz{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:0 auto;
+    padding:20px;
+    background-color:#d44646;
+}
+
+.stormy section{
+    box-sizing: border-box;
+}
+
+.blitz .em {
+padding:2em;
+}
+
+.blitz .rem{
+    padding:3rem;
+}
+
+
+.blitz .px p {
+    width:75%;
+
+}
+
+.blitz .vw{
+    width:50vw;
+}
