@@ -19,6 +19,10 @@ section {
     background-color: cornsilk;
     padding: 10px;
     margin: 10px;
-    border: solid burlywood; 2px;
+    border: solid burlywood;
     border-radius: 5px;
+}
+
+.pure-u-1-3{
+  background-color: crimson;
 }
