@@ -1,0 +1,7 @@
+@media screen and (min-width:1262px) and (max-width:2000px){
+    body{
+        background-color: brown;
+        color:black;
+        font-family: fantasy;
+    }
+}
