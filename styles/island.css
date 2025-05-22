@@ -22,7 +22,7 @@ main,header,nav ul, footer{
 }
 
 main section{
-    border:solid var(--blue) 1px;
+    border:solid var(--white) 1px;
     text-align: center;
     padding:20px;
 }
